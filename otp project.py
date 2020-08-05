@@ -10,7 +10,7 @@ print(otp_number)
 b="YOUR OTP NUMBER IS: "+otp_number
 
 account_sid="AC67c9f4d7a2ac57232976768592a1d295"
-auth_token="4fa93918b909cb7e8cf6f289a9d6c5cd"
+auth_token="6dfb04c9f4d03e98c5e44711d416bdc5"
 client=Client(account_sid,auth_token)
 message=client.messages\
          .create(
